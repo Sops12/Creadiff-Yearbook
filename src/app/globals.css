@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --background: #ffffff;
@@ -19,8 +21,77 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+  font-size: 16px; /* Base font size for better scaling */
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Responsive typography */
+@media (max-width: 640px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1920px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+/* Ensure images are responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Better touch targets for mobile */
+@media (max-width: 768px) {
+  button, a {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Marquee Animation Keyframes */
+@keyframes marquee-ltr {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* General Marquee Class (untuk komponen lain) */
+.animate-marquee-ltr {
+  animation: marquee-ltr 15s linear infinite;
+  will-change: transform;
+  white-space: nowrap;
+}
+
+/* Running Images Specific Animation */
+.running-images-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.running-images {
+  display: flex;
+  animation: marquee-ltr 10s linear infinite;
+  width: fit-content;
+}
+
+.running-images:hover {
+  animation-play-state: paused;
 }
