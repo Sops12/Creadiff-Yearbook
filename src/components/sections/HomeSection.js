@@ -38,7 +38,7 @@ export default function HomeSection() {
           
           typedInstance.current = new Typed(targetElement, {
             strings: [
-              "More than a yearbook<br />we tell your school's story"
+              "More than a yearbook<br />we tell your school&apos;s story"
             ],
             typeSpeed: 50,
             backSpeed: 25,
@@ -109,7 +109,7 @@ export default function HomeSection() {
               transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
               className="text-white text-base sm:text-lg md:text-xl font-medium text-center mb-3 sm:mb-4 lg:mb-6 max-w-4xl leading-relaxed"
             >
-              <span ref={typedElMobile}>More than a yearbook<br />we tell your school's story</span>
+              <span ref={typedElMobile}>More than a yearbook<br />we tell your school&apos;s story</span>
             </motion.p>
           </div>
         </div>
@@ -132,7 +132,7 @@ export default function HomeSection() {
               transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
               className="text-white text-2xl xl:text-3xl 2xl:text-4xl font-medium text-left mb-3 sm:mb-4 lg:mb-6 max-w-4xl leading-relaxed"
             >
-              <span ref={typedElDesktop}>More than a yearbook<br />we tell your school's story</span>
+              <span ref={typedElDesktop}>More than a yearbook<br />we tell your school&apos;s story</span>
             </motion.p>
           </div>
 
