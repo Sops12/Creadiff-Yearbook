@@ -46,9 +46,9 @@ export default function Navbar() {
               <Image 
                 src="/logoPutih.svg" 
                 alt="Logo" 
-                width={24} 
-                height={24}
-                className="w-6 h-6 sm:w-8 sm:h-8"
+                width={32} 
+                height={32}
+                className="w-10 h-10 sm:w-12 sm:h-12"
               />
             </div>
 
@@ -56,14 +56,14 @@ export default function Navbar() {
             <div className="lg:hidden fixed top-4 right-4 z-50">
               <button
                 onClick={toggleMenu}
-                className={`flex flex-col justify-center items-center w-10 h-10 transition-all duration-300 ${
+                className={`flex flex-col justify-center items-center w-12 h-12 transition-all duration-300 ${
                   isMenuOpen ? 'rounded-full bg-white/10 backdrop-blur-sm' : ''
                 }`}
                 aria-label="Toggle menu"
               >
-                <div className={`w-5 h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? 'rotate-45 translate-y-1.5' : ''}`}></div>
-                <div className={`w-5 h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? 'opacity-0' : ''} my-0.5`}></div>
-                <div className={`w-5 h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? '-rotate-45 -translate-y-1.5' : ''}`}></div>
+                <div className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? 'rotate-45 translate-y-1.5' : ''}`}></div>
+                <div className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? 'opacity-0' : ''} my-0.5`}></div>
+                <div className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? '-rotate-45 -translate-y-1.5' : ''}`}></div>
               </button>
             </div>
           
@@ -109,7 +109,7 @@ export default function Navbar() {
           }`} onClick={() => setIsMenuOpen(false)}></div>
 
           {/* Mobile Menu Dropdown */}
-          <div className={`lg:hidden fixed top-16 left-0 right-0 w-full h-1/2 transition-all duration-300 ${
+          <div className={`lg:hidden fixed top-20 left-0 right-0 w-full h-1/2 transition-all duration-300 ${
             isMenuOpen ? 'translate-y-0 backdrop-blur-md bg-white/15 border-b border-white/20 shadow-xl' : '-translate-y-full pointer-events-none'
           }`}>
             <div className="py-6 px-6 h-full flex flex-col">

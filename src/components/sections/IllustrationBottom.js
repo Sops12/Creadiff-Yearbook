@@ -152,8 +152,8 @@ export default function IllustrationBottom(props) {
       <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1457"/>
       <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1457" result="shape"/>
       </filter>
-    <filter id="filter5_d_1_1457" x="501.726" y="472.589" width="300.661" height="180.153" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <filter id="filter5_d_1_1457" x="501.726" y="472.589" width="300.661" height="180.153" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
     <feOffset dx="1.03515" dy="1.03515"/>
     <feGaussianBlur stdDeviation="3.88183"/>
@@ -162,8 +162,8 @@ export default function IllustrationBottom(props) {
     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1457"/>
     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1457" result="shape"/>
     </filter>
-    <filter id="filter6_d_1_1457" x="575.437" y="440.889" width="153.242" height="108.868" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <filter id="filter6_d_1_1457" x="575.437" y="440.889" width="153.242" height="108.868" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
     <feOffset dx="1.03515" dy="1.03515"/>
     <feGaussianBlur stdDeviation="3.88183"/>
@@ -172,8 +172,8 @@ export default function IllustrationBottom(props) {
     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1457"/>
     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1457" result="shape"/>
     </filter>
-    <filter id="filter7_d_1_1457" x="533.663" y="440.889" width="236.783" height="158.541" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <filter id="filter7_d_1_1457" x="533.663" y="440.889" width="236.783" height="158.541" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
     <feOffset dx="1.03515" dy="1.03515"/>
     <feGaussianBlur stdDeviation="3.88183"/>
@@ -182,8 +182,8 @@ export default function IllustrationBottom(props) {
     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1457"/>
     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1457" result="shape"/>
     </filter>
-    <filter id="filter8_d_1_1457" x="501.726" y="472.589" width="300.661" height="180.153" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <filter id="filter8_d_1_1457" x="501.726" y="472.589" width="300.661" height="180.153" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
     <feOffset dx="1.03515" dy="1.03515"/>
     <feGaussianBlur stdDeviation="3.88183"/>
@@ -192,8 +192,8 @@ export default function IllustrationBottom(props) {
     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1457"/>
     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1457" result="shape"/>
     </filter>
-    <filter id="filter9_d_1_1457" x="500.261" y="522.953" width="303.591" height="184.05" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <filter id="filter9_d_1_1457" x="500.261" y="522.953" width="303.591" height="184.05" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
     <feOffset dx="1.03515" dy="1.03515"/>
     <feGaussianBlur stdDeviation="3.88183"/>
@@ -202,8 +202,8 @@ export default function IllustrationBottom(props) {
     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1457"/>
     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1457" result="shape"/>
     </filter>
-    <filter id="filter10_d_1_1457" x="575.437" y="440.889" width="153.242" height="108.868" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <filter id="filter10_d_1_1457" x="575.437" y="440.889" width="153.242" height="108.868" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
     <feOffset dx="1.03515" dy="1.03515"/>
     <feGaussianBlur stdDeviation="3.88183"/>
@@ -212,8 +212,8 @@ export default function IllustrationBottom(props) {
     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1457"/>
     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1457" result="shape"/>
     </filter>
-    <filter id="filter11_d_1_1457" x="350.548" y="477.908" width="120.599" height="81.3518" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <filter id="filter11_d_1_1457" x="350.548" y="477.908" width="120.599" height="81.3518" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
     <feOffset dx="1.03515" dy="1.03515"/>
     <feGaussianBlur stdDeviation="3.88183"/>
@@ -222,8 +222,8 @@ export default function IllustrationBottom(props) {
     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1457"/>
     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1457" result="shape"/>
     </filter>
-    <filter id="filter12_d_1_1457" x="337.923" y="453.029" width="145.85" height="91.7688" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <filter id="filter12_d_1_1457" x="337.923" y="453.029" width="145.85" height="91.7688" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
     <feOffset dx="1.03515" dy="1.03515"/>
     <feGaussianBlur stdDeviation="3.88183"/>
@@ -232,8 +232,8 @@ export default function IllustrationBottom(props) {
     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1457"/>
     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1457" result="shape"/>
     </filter>
-    <filter id="filter13_d_1_1457" x="338.587" y="430.245" width="144.525" height="90.0057" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <filter id="filter13_d_1_1457" x="338.587" y="430.245" width="144.525" height="90.0057" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
     <feOffset dx="1.03515" dy="1.03515"/>
     <feGaussianBlur stdDeviation="3.88183"/>
@@ -242,8 +242,8 @@ export default function IllustrationBottom(props) {
     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1457"/>
     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1457" result="shape"/>
     </filter>
-    <filter id="filter14_d_1_1457" x="353.034" y="415.904" width="115.626" height="80.2282" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <filter id="filter14_d_1_1457" x="353.034" y="415.904" width="115.626" height="80.2282" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
     <feOffset dx="1.03515" dy="1.03515"/>
     <feGaussianBlur stdDeviation="3.88183"/>
@@ -252,8 +252,8 @@ export default function IllustrationBottom(props) {
     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1457"/>
     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1457" result="shape"/>
     </filter>
-    <filter id="filter15_d_1_1457" x="371.934" y="415.904" width="77.831" height="57.7556" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <filter id="filter15_d_1_1457" x="371.934" y="415.904" width="77.831" height="57.7556" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
     <feOffset dx="1.03515" dy="1.03515"/>
     <feGaussianBlur stdDeviation="3.88183"/>
@@ -263,177 +263,177 @@ export default function IllustrationBottom(props) {
     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1457" result="shape"/>
     </filter>
     <radialGradient id="paint0_radial_1_1457" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(553.52 575.24) rotate(51.2098) scale(505.18)">
-    <stop stop-color="#2954A3"/>
-    <stop offset="1" stop-color="#0F103F"/>
+    <stop stopColor="#2954A3"/>
+    <stop offset="1" stopColor="#0F103F"/>
     </radialGradient>
     <linearGradient id="paint1_linear_1_1457" x1="352.496" y1="947.048" x2="498.913" y2="239.7" gradientUnits="userSpaceOnUse">
-    <stop stop-color="white"/>
-    <stop offset="0.508554" stop-color="#30FFFF"/>
-    <stop offset="1" stop-color="white" stop-opacity="0"/>
+    <stop stopColor="white"/>
+    <stop offset="0.508554" stopColor="#30FFFF"/>
+    <stop offset="1" stopColor="white" stopOpacity="0"/>
     </linearGradient>
     <radialGradient id="paint2_radial_1_1457" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(281.018 692.733) rotate(-45.6853) scale(355.024 632.713)">
-    <stop stop-color="white"/>
-    <stop offset="0.462474" stop-color="#3A45AA"/>
-    <stop offset="1" stop-color="#3A45AA" stop-opacity="0"/>
+    <stop stopColor="white"/>
+    <stop offset="0.462474" stopColor="#3A45AA"/>
+    <stop offset="1" stopColor="#3A45AA" stopOpacity="0"/>
     </radialGradient>
     <linearGradient id="paint3_linear_1_1457" x1="432.558" y1="700.334" x2="602.648" y2="418.311" gradientUnits="userSpaceOnUse">
-    <stop stop-color="white"/>
-    <stop offset="0.442828" stop-color="#30FFFF"/>
-    <stop offset="1" stop-color="white" stop-opacity="0"/>
+    <stop stopColor="white"/>
+    <stop offset="0.442828" stopColor="#30FFFF"/>
+    <stop offset="1" stopColor="white" stopOpacity="0"/>
     </linearGradient>
     <radialGradient id="paint4_radial_1_1457" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(702.41 502.175) rotate(141.315) scale(246.834 440.027)">
-    <stop offset="0.39201" stop-color="#1B29A4" stop-opacity="0"/>
-    <stop offset="0.841913" stop-color="#2938BB" stop-opacity="0.5"/>
-    <stop offset="1" stop-color="#172075" stop-opacity="0.5"/>
+    <stop offset="0.39201" stopColor="#1B29A4" stopOpacity="0"/>
+    <stop offset="0.841913" stopColor="#2938BB" stopOpacity="0.5"/>
+    <stop offset="1" stopColor="#172075" stopOpacity="0.5"/>
     </radialGradient>
     <radialGradient id="paint5_radial_1_1457" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(726.082 463.131) rotate(141.571) scale(343.156 606.252)">
-    <stop offset="0.39201" stop-color="#6675FF" stop-opacity="0"/>
-    <stop offset="0.841913" stop-color="#6675FF" stop-opacity="0.5"/>
-    <stop offset="1" stop-color="#192059" stop-opacity="0"/>
+    <stop offset="0.39201" stopColor="#6675FF" stopOpacity="0"/>
+    <stop offset="0.841913" stopColor="#6675FF" stopOpacity="0.5"/>
+    <stop offset="1" stopColor="#192059" stopOpacity="0"/>
     </radialGradient>
     <radialGradient id="paint6_radial_1_1457" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(774.067 364.388) rotate(140.348) scale(498.718 889.055)">
-    <stop offset="0.39201" stop-color="#6675FF" stop-opacity="0"/>
-    <stop offset="0.841913" stop-color="#6675FF" stop-opacity="0.5"/>
-    <stop offset="1" stop-color="#DBDEFF" stop-opacity="0"/>
+    <stop offset="0.39201" stopColor="#6675FF" stopOpacity="0"/>
+    <stop offset="0.841913" stopColor="#6675FF" stopOpacity="0.5"/>
+    <stop offset="1" stopColor="#DBDEFF" stopOpacity="0"/>
     </radialGradient>
     <radialGradient id="paint7_radial_1_1457" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(686.491 530.421) rotate(141.315) scale(202.354 360.732)">
-    <stop offset="0.39201" stop-color="#17217A" stop-opacity="0"/>
-    <stop offset="0.841913" stop-color="#1A2374" stop-opacity="0.5"/>
-    <stop offset="1" stop-color="#151E6C" stop-opacity="0.5"/>
+    <stop offset="0.39201" stopColor="#17217A" stopOpacity="0"/>
+    <stop offset="0.841913" stopColor="#1A2374" stopOpacity="0.5"/>
+    <stop offset="1" stopColor="#151E6C" stopOpacity="0.5"/>
     </radialGradient>
     <linearGradient id="paint8_linear_1_1457" x1="495.683" y1="684.651" x2="593.268" y2="424.362" gradientUnits="userSpaceOnUse">
-    <stop stop-color="white"/>
-    <stop offset="0.508554" stop-color="#30FFFF"/>
-    <stop offset="1" stop-color="white" stop-opacity="0"/>
+    <stop stopColor="white"/>
+    <stop offset="0.508554" stopColor="#30FFFF"/>
+    <stop offset="1" stopColor="white" stopOpacity="0"/>
     </linearGradient>
     <radialGradient id="paint9_radial_1_1457" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(591.853 755.515) rotate(-64.0757) scale(330.71)">
-    <stop offset="0.107416" stop-color="white" stop-opacity="0.5"/>
-    <stop offset="0.328407" stop-color="#8FB5FF" stop-opacity="0.5"/>
-    <stop offset="0.629496" stop-color="#220C7A" stop-opacity="0"/>
+    <stop offset="0.107416" stopColor="white" stopOpacity="0.5"/>
+    <stop offset="0.328407" stopColor="#8FB5FF" stopOpacity="0.5"/>
+    <stop offset="0.629496" stopColor="#220C7A" stopOpacity="0"/>
     </radialGradient>
     <radialGradient id="paint10_radial_1_1457" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(651.022 589.536) rotate(90) scale(218.22)">
-    <stop stop-color="#3E5DFF"/>
-    <stop offset="1" stop-color="#3E5DFF" stop-opacity="0"/>
+    <stop stopColor="#3E5DFF"/>
+    <stop offset="1" stopColor="#3E5DFF" stopOpacity="0"/>
     </radialGradient>
     <linearGradient id="paint11_linear_1_1457" x1="767.145" y1="641.673" x2="534.97" y2="658.43" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#4E53BE" stop-opacity="0.5"/>
-    <stop offset="0.885417" stop-color="#33CEFF" stop-opacity="0.7"/>
-    <stop offset="1" stop-color="white" stop-opacity="0.5"/>
+    <stop stopColor="#4E53BE" stopOpacity="0.5"/>
+    <stop offset="0.885417" stopColor="#33CEFF" stopOpacity="0.7"/>
+    <stop offset="1" stopColor="white" stopOpacity="0.5"/>
     </linearGradient>
     <linearGradient id="paint12_linear_1_1457" x1="671.318" y1="761.755" x2="685.794" y2="600.783" gradientUnits="userSpaceOnUse">
-    <stop stop-color="white"/>
-    <stop offset="1" stop-color="white" stop-opacity="0"/>
+    <stop stopColor="white"/>
+    <stop offset="1" stopColor="white" stopOpacity="0"/>
     </linearGradient>
     <radialGradient id="paint13_radial_1_1457" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(503.699 643.176) rotate(-19.6638) scale(312.89)">
-    <stop offset="0.249306" stop-color="white"/>
-    <stop offset="0.48315" stop-color="#8FF2FF" stop-opacity="0.5"/>
-    <stop offset="0.627037" stop-color="#220C7A" stop-opacity="0.1"/>
+    <stop offset="0.249306" stopColor="white"/>
+    <stop offset="0.48315" stopColor="#8FF2FF" stopOpacity="0.5"/>
+    <stop offset="0.627037" stopColor="#220C7A" stopOpacity="0.1"/>
     </radialGradient>
     <linearGradient id="paint14_linear_1_1457" x1="780.245" y1="609.071" x2="507.11" y2="617.741" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#4E53BE" stop-opacity="0.1"/>
-    <stop offset="1" stop-color="#33CEFF"/>
+    <stop stopColor="#4E53BE" stopOpacity="0.1"/>
+    <stop offset="1" stopColor="#33CEFF"/>
     </linearGradient>
     <linearGradient id="paint15_linear_1_1457" x1="759.122" y1="554.308" x2="508.632" y2="565.576" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#4E53BE" stop-opacity="0.1"/>
-    <stop offset="0.997187" stop-color="#33CEFF"/>
+    <stop stopColor="#4E53BE" stopOpacity="0.1"/>
+    <stop offset="0.997187" stopColor="#33CEFF"/>
     </linearGradient>
     <linearGradient id="paint16_linear_1_1457" x1="675.939" y1="679.683" x2="691.053" y2="497.328" gradientUnits="userSpaceOnUse">
-    <stop stop-color="white"/>
-    <stop offset="1" stop-color="white" stop-opacity="0"/>
+    <stop stopColor="white"/>
+    <stop offset="1" stopColor="white" stopOpacity="0"/>
     </linearGradient>
     <linearGradient id="paint17_linear_1_1457" x1="719.88" y1="484.186" x2="582.104" y2="493.377" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#4E53BE" stop-opacity="0.1"/>
-    <stop offset="1" stop-color="#33CEFF" stop-opacity="0.9"/>
+    <stop stopColor="#4E53BE" stopOpacity="0.1"/>
+    <stop offset="1" stopColor="#33CEFF" stopOpacity="0.9"/>
     </linearGradient>
     <radialGradient id="paint18_radial_1_1457" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(672.284 795.261) rotate(-83.1976) scale(317.034)">
-    <stop offset="0.338542" stop-color="#68FFF6" stop-opacity="0.1"/>
-    <stop offset="0.802083" stop-color="#FFBFE9"/>
-    <stop offset="1" stop-color="white"/>
+    <stop offset="0.338542" stopColor="#68FFF6" stopOpacity="0.1"/>
+    <stop offset="0.802083" stopColor="#FFBFE9"/>
+    <stop offset="1" stopColor="white"/>
     </radialGradient>
     <linearGradient id="paint19_linear_1_1457" x1="663.562" y1="590.631" x2="670.955" y2="460.959" gradientUnits="userSpaceOnUse">
-    <stop stop-color="white"/>
-    <stop offset="1" stop-color="white" stop-opacity="0"/>
+    <stop stopColor="white"/>
+    <stop offset="1" stopColor="white" stopOpacity="0"/>
     </linearGradient>
     <linearGradient id="paint20_linear_1_1457" x1="658.105" y1="646.102" x2="674.986" y2="492.441" gradientUnits="userSpaceOnUse">
-    <stop stop-color="white"/>
-    <stop offset="1" stop-color="white" stop-opacity="0"/>
+    <stop stopColor="white"/>
+    <stop offset="1" stopColor="white" stopOpacity="0"/>
     </linearGradient>
     <linearGradient id="paint21_linear_1_1457" x1="661.517" y1="701.019" x2="664.362" y2="539.318" gradientUnits="userSpaceOnUse">
-    <stop stop-color="white"/>
-    <stop offset="1" stop-color="white" stop-opacity="0"/>
+    <stop stopColor="white"/>
+    <stop offset="1" stopColor="white" stopOpacity="0"/>
     </linearGradient>
     <linearGradient id="paint22_linear_1_1457" x1="663.057" y1="561.222" x2="673.091" y2="458.095" gradientUnits="userSpaceOnUse">
-    <stop stop-color="white"/>
-    <stop offset="1" stop-color="white" stop-opacity="0"/>
+    <stop stopColor="white"/>
+    <stop offset="1" stopColor="white" stopOpacity="0"/>
     </linearGradient>
     <radialGradient id="paint23_radial_1_1457" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(420.092 494.339) rotate(90) scale(83.6074)">
-    <stop stop-color="#FF65C1"/>
-    <stop offset="1" stop-color="#FF65C1" stop-opacity="0"/>
+    <stop stopColor="#FF65C1"/>
+    <stop offset="1" stopColor="#FF65C1" stopOpacity="0"/>
     </radialGradient>
     <linearGradient id="paint24_linear_1_1457" x1="462.348" y1="510.425" x2="357.31" y2="518.006" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#4E53BE" stop-opacity="0.5"/>
-    <stop offset="0.885417" stop-color="#FB33FF" stop-opacity="0.5"/>
-    <stop offset="1" stop-color="white" stop-opacity="0.5"/>
+    <stop stopColor="#4E53BE" stopOpacity="0.5"/>
+    <stop offset="0.885417" stopColor="#FB33FF" stopOpacity="0.5"/>
+    <stop offset="1" stopColor="white" stopOpacity="0.5"/>
     </linearGradient>
     <linearGradient id="paint25_linear_1_1457" x1="418.995" y1="564.752" x2="425.544" y2="491.926" gradientUnits="userSpaceOnUse">
-    <stop stop-color="white"/>
-    <stop offset="1" stop-color="white" stop-opacity="0"/>
+    <stop stopColor="white"/>
+    <stop offset="1" stopColor="white" stopOpacity="0"/>
     </linearGradient>
     <radialGradient id="paint26_radial_1_1457" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(343.163 511.104) rotate(-19.6638) scale(141.555)">
-    <stop offset="0.249306" stop-color="white"/>
-    <stop offset="0.48315" stop-color="#FF8FED" stop-opacity="0.5"/>
-    <stop offset="0.627037" stop-color="#220C7A" stop-opacity="0.5"/>
+    <stop offset="0.249306" stopColor="white"/>
+    <stop offset="0.48315" stopColor="#FF8FED" stopOpacity="0.5"/>
+    <stop offset="0.627037" stopColor="#220C7A" stopOpacity="0.5"/>
     </radialGradient>
     <linearGradient id="paint27_linear_1_1457" x1="474.974" y1="489.628" x2="344.791" y2="499.689" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#4E53BE" stop-opacity="0.5"/>
-    <stop offset="0.885417" stop-color="#FB33FF" stop-opacity="0.5"/>
-    <stop offset="1" stop-color="white" stop-opacity="0.5"/>
+    <stop stopColor="#4E53BE" stopOpacity="0.5"/>
+    <stop offset="0.885417" stopColor="#FB33FF" stopOpacity="0.5"/>
+    <stop offset="1" stopColor="white" stopOpacity="0.5"/>
     </linearGradient>
     <linearGradient id="paint28_linear_1_1457" x1="421.202" y1="552.552" x2="428.293" y2="468.115" gradientUnits="userSpaceOnUse">
-    <stop stop-color="white"/>
-    <stop offset="1" stop-color="white" stop-opacity="0"/>
+    <stop stopColor="white"/>
+    <stop offset="1" stopColor="white" stopOpacity="0"/>
     </linearGradient>
     <radialGradient id="paint29_radial_1_1457" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(425.68 536.228) rotate(-107.749) scale(99.169)">
-    <stop offset="0.223958" stop-color="white"/>
-    <stop offset="0.466382" stop-color="#FFCEF1"/>
-    <stop offset="0.682292" stop-color="#B6B9FF"/>
-    <stop offset="0.881791" stop-color="white"/>
+    <stop offset="0.223958" stopColor="white"/>
+    <stop offset="0.466382" stopColor="#FFCEF1"/>
+    <stop offset="0.682292" stopColor="#B6B9FF"/>
+    <stop offset="0.881791" stopColor="white"/>
     </radialGradient>
     <radialGradient id="paint30_radial_1_1457" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(434.207 536.228) rotate(-100.377) scale(135.421)">
-    <stop stop-color="white"/>
-    <stop offset="1" stop-color="white" stop-opacity="0"/>
+    <stop stopColor="white"/>
+    <stop offset="1" stopColor="white" stopOpacity="0"/>
     </radialGradient>
     <linearGradient id="paint31_linear_1_1457" x1="474.313" y1="466.153" x2="345.475" y2="476.242" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#4E53BE" stop-opacity="0.5"/>
-    <stop offset="0.885417" stop-color="#FB33FF" stop-opacity="0.5"/>
-    <stop offset="1" stop-color="white" stop-opacity="0.5"/>
+    <stop stopColor="#4E53BE" stopOpacity="0.5"/>
+    <stop offset="0.885417" stopColor="#FB33FF" stopOpacity="0.5"/>
+    <stop offset="1" stopColor="white" stopOpacity="0.5"/>
     </linearGradient>
     <linearGradient id="paint32_linear_1_1457" x1="421.088" y1="527.622" x2="427.925" y2="445.122" gradientUnits="userSpaceOnUse">
-    <stop stop-color="white"/>
-    <stop offset="1" stop-color="white" stop-opacity="0"/>
+    <stop stopColor="white"/>
+    <stop offset="1" stopColor="white" stopOpacity="0"/>
     </linearGradient>
     <linearGradient id="paint33_linear_1_1457" x1="459.861" y1="447.981" x2="359.763" y2="454.983" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#4E53BE" stop-opacity="0.5"/>
-    <stop offset="0.885417" stop-color="#FB33FF" stop-opacity="0.5"/>
-    <stop offset="1" stop-color="white" stop-opacity="0.5"/>
+    <stop stopColor="#4E53BE" stopOpacity="0.5"/>
+    <stop offset="0.885417" stopColor="#FB33FF" stopOpacity="0.5"/>
+    <stop offset="1" stopColor="white" stopOpacity="0.5"/>
     </linearGradient>
     <linearGradient id="paint34_linear_1_1457" x1="418.56" y1="501.38" x2="425.198" y2="429.835" gradientUnits="userSpaceOnUse">
-    <stop stop-color="white"/>
-    <stop offset="1" stop-color="white" stop-opacity="0"/>
+    <stop stopColor="white"/>
+    <stop offset="1" stopColor="white" stopOpacity="0"/>
     </linearGradient>
     <linearGradient id="paint35_linear_1_1457" x1="440.966" y1="439.177" x2="378.635" y2="443.335" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#4E53BE" stop-opacity="0.5"/>
-    <stop offset="0.885417" stop-color="#FB33FF" stop-opacity="0.5"/>
-    <stop offset="1" stop-color="white" stop-opacity="0.5"/>
+    <stop stopColor="#4E53BE" stopOpacity="0.5"/>
+    <stop offset="0.885417" stopColor="#FB33FF" stopOpacity="0.5"/>
+    <stop offset="1" stopColor="white" stopOpacity="0.5"/>
     </linearGradient>
     <linearGradient id="paint36_linear_1_1457" x1="415.259" y1="474.029" x2="419.798" y2="427.373" gradientUnits="userSpaceOnUse">
-    <stop stop-color="white"/>
-    <stop offset="1" stop-color="white" stop-opacity="0"/>
+    <stop stopColor="white"/>
+    <stop offset="1" stopColor="white" stopOpacity="0"/>
     </linearGradient>
     <radialGradient id="paint37_radial_1_1457" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(383.045 561.928) rotate(-65.1363) scale(210.169)">
-    <stop offset="0.249306" stop-color="white"/>
-    <stop offset="0.48315" stop-color="#FF8FED" stop-opacity="0.5"/>
-    <stop offset="0.627037" stop-color="#220C7A" stop-opacity="0"/>
+    <stop offset="0.249306" stopColor="white"/>
+    <stop offset="0.48315" stopColor="#FF8FED" stopOpacity="0.5"/>
+    <stop offset="0.627037" stopColor="#220C7A" stopOpacity="0"/>
     </radialGradient>
     </defs>
     </svg>

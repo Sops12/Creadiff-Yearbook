@@ -53,7 +53,7 @@ export default function ContactSection() {
   };
 
   return (
-    <div id="Contact" className={`min-h-screen w-full flex flex-col justify-center items-center bg-gradient-to-b from-[#0F103F] to-[#0F103F] p-4 sm:p-6 md:p-8 ${poppins.className}`}>
+    <div id="Contact" className={`min-h-screen w-full flex flex-col justify-center items-center bg-gradient-to-b from-[#0F103F] to-[#0F103F] p-4 sm:p-6 md:p-8 pb-20 lg:pb-20 ${poppins.className}`}>
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -65,7 +65,7 @@ export default function ContactSection() {
         <div className="w-24 h-1 bg-white/30 mx-auto rounded-full" />
       </motion.div>
       
-      <div className="relative z-10 w-full max-w-4xl bg-white/10 backdrop-blur-md rounded-2xl p-8 shadow-lg border border-white/20 flex flex-col md:flex-row gap-8">
+      <div className="relative z-10 w-full max-w-4xl bg-white/10 backdrop-blur-md rounded-2xl p-8 shadow-lg border border-white/20 flex flex-col md:flex-row gap-8 mb-8 lg:mb-8" style={{ zIndex: 10 }}>
         {/* Left: Form & Info */}
         <div className="flex-1 flex flex-col gap-8 justify-center">
             <h3 className="text-white text-xl font-bold text-center mb-2">Email</h3>

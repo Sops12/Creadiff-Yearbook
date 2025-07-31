@@ -25,11 +25,13 @@ export default function Home() {
         <section className="h-screen w-full">
           <WorkSection />
         </section>
-        <section className="h-screen w-full">
+        <section className="min-h-screen w-full">
           <ContactSection />
         </section>
       </div>
-      <Footer />
+      <div className="relative z-50 bg-[#0F103F] shadow-2xl">
+        <Footer />
+      </div>
     </div>
   );
 }

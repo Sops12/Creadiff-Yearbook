@@ -2,10 +2,10 @@ import { FaHome, FaUser, FaBriefcase, FaPhone, FaInstagram, FaTwitter, FaLinkedi
 
 export default function Footer() {
   return (
-    <footer className="bg-[#0F103F] py-10 px-4">
+    <footer className="bg-[#0F103F] py-10 px-4 relative z-50 border-t border-white/10 shadow-2xl" style={{ backgroundColor: '#0F103F' }}>
       <div className="flex flex-col items-center">
         {/* Menu Navigasi */}
-        <div className="flex space-x-10 mb-6">
+        <div className="flex flex-wrap justify-center space-x-4 sm:space-x-10 mb-6">
           <a href="#Home" className="flex items-center text-white space-x-2 hover:underline">
             <FaHome />
             <span>Home</span>
@@ -24,12 +24,12 @@ export default function Footer() {
           </a>
         </div>
         {/* Sosial Media */}
-        <div className="flex space-x-4 mb-6">
-          <a href="#" className="text-pink-500 bg-white rounded-full p-2 text-2xl"><FaInstagram /></a>
-          <a href="#" className="text-blue-400 bg-white rounded-full p-2 text-2xl"><FaTwitter /></a>
-          <a href="#" className="text-blue-600 bg-white rounded-full p-2 text-2xl"><FaLinkedin /></a>
-          <a href="#" className="text-blue-800 bg-white rounded-full p-2 text-2xl"><FaFacebook /></a>
-          <a href="#" className="text-red-600 bg-white rounded-full p-2 text-2xl"><FaYoutube /></a>
+        <div className="flex flex-wrap justify-center space-x-2 sm:space-x-4 mb-6">
+          <a href="#" className="text-pink-500 bg-white rounded-full p-2 text-xl sm:text-2xl"><FaInstagram /></a>
+          <a href="#" className="text-blue-400 bg-white rounded-full p-2 text-xl sm:text-2xl"><FaTwitter /></a>
+          <a href="#" className="text-blue-600 bg-white rounded-full p-2 text-xl sm:text-2xl"><FaLinkedin /></a>
+          <a href="#" className="text-blue-800 bg-white rounded-full p-2 text-xl sm:text-2xl"><FaFacebook /></a>
+          <a href="#" className="text-red-600 bg-white rounded-full p-2 text-xl sm:text-2xl"><FaYoutube /></a>
         </div>
         {/* Garis */}
         <hr className="border-t border-white/20 w-full max-w-2xl mb-4" />
