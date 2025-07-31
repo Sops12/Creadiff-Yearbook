@@ -3,7 +3,7 @@ import { compare } from 'bcryptjs';
 import { SignJWT } from 'jose';
 import { serialize } from 'cookie';
 
-const JWT_SECRET = new TextEncoder().encode(process.env.JWT_SECRET);
+const JWT_SECRET = new TextEncoder().encode(process.env.JWT_SECRET || 'fallback-secret-for-development');
 const COOKIE_NAME = 'auth_token';
 
 export async function POST(req) {

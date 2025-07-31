@@ -1,8 +1,15 @@
 import React, { useEffect, useRef, useState } from "react";
-import Typed from "typed.js";
 import { Poppins } from "next/font/google";
 import { motion } from "framer-motion";
 import IllustrationBottom from "./IllustrationBottom";
+
+// Dynamic import untuk Typed.js
+let Typed;
+if (typeof window !== 'undefined') {
+  import('typed.js').then((typedModule) => {
+    Typed = typedModule.default;
+  });
+}
 
 const poppins = Poppins({
   weight: ["300", "700"],
@@ -16,20 +23,22 @@ export default function HomeSection() {
   const [isTypedReady, setIsTypedReady] = useState(false);
 
   useEffect(() => {
-    // console.log('HomeSection mounted'); // Debug
-    
-    // Tunggu sampai DOM siap
-    const timer = setTimeout(() => {
-      // Cek elemen mobile terlebih dahulu
-      const targetElement = typedElMobile.current || typedElDesktop.current;
-      // console.log('Typed.js element mobile:', typedElMobile.current); // Debug
-      // console.log('Typed.js element desktop:', typedElDesktop.current); // Debug
-      
-      if (targetElement) {
-        try {
+    // Tunggu sampai DOM siap dan Typed.js loaded
+    const initTyped = async () => {
+      try {
+        // Pastikan Typed.js sudah loaded
+        if (!Typed) {
+          const typedModule = await import('typed.js');
+          Typed = typedModule.default;
+        }
+        
+        // Cek elemen mobile terlebih dahulu
+        const targetElement = typedElMobile.current || typedElDesktop.current;
+        
+        if (targetElement && Typed) {
           typedInstance.current = new Typed(targetElement, {
             strings: [
-              "More than a yearbook<br />we tell your school's story"
+              "More than a yearbook<br />we tell your school&apos;s story"
             ],
             typeSpeed: 50,
             backSpeed: 25,
@@ -39,15 +48,14 @@ export default function HomeSection() {
             fadeOut: false,
             contentType: 'html',
           });
-          // console.log('Typed.js initialized successfully'); // Debug
           setIsTypedReady(true);
-        } catch (error) {
-          // console.error('Typed.js error:', error); // Debug
         }
-      } else {
-        // console.log('Typed.js element not found'); // Debug
+      } catch (error) {
+        console.error('Typed.js error:', error);
       }
-    }, 500);
+    };
+
+    const timer = setTimeout(initTyped, 1000);
     
     return () => {
       clearTimeout(timer);
@@ -99,7 +107,7 @@ export default function HomeSection() {
               transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
               className="text-white text-base sm:text-lg md:text-xl font-medium text-center mb-3 sm:mb-4 lg:mb-6 max-w-4xl leading-relaxed"
             >
-              <span ref={typedElMobile}>More than a yearbook<br />we tell your school's story</span>
+              <span ref={typedElMobile}>More than a yearbook<br />we tell your school&apos;s story</span>
             </motion.p>
           </div>
         </div>
@@ -122,7 +130,7 @@ export default function HomeSection() {
               transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
               className="text-white text-2xl xl:text-3xl 2xl:text-4xl font-medium text-left mb-3 sm:mb-4 lg:mb-6 max-w-4xl leading-relaxed"
             >
-              <span ref={typedElDesktop}>More than a yearbook<br />we tell your school's story</span>
+              <span ref={typedElDesktop}>More than a yearbook<br />we tell your school&apos;s story</span>
             </motion.p>
           </div>
 

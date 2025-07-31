@@ -56,7 +56,7 @@ export default function AboutSection() {
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
             >
-              Sebagai professional, kami selalu memprioritaskan dan berusahan memuaskan client. Menambahkan bumbu dan cita rasa CREADIFF yaitu "Create Different". Seperti layaknya 'cherry on the top'.
+              Sebagai professional, kami selalu memprioritaskan dan berusahan memuaskan client. Menambahkan bumbu dan cita rasa CREADIFF yaitu &quot;Create Different&quot;. Seperti layaknya &apos;cherry on the top&apos;.
             </motion.p>
           </motion.div>
         </div>
