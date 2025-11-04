@@ -9,7 +9,22 @@ const poppins = Poppins({
 export const metadata = {
   title: "CREADIFF - More than a yearbook, we tell your school's story",
   description: "CREADIFF adalah sebuah rumah produksi dibawah naungan PT. BAYU PRIMA WISATA, dan berafiliasi ATHA PHOTO STUDIO. Yang sudah bergerak sejak 2019.",
-  viewport: "width=device-width, initial-scale=1, maximum-scale=5",
+  icons: {
+    icon: [
+      { url: '/LogoPutih.svg', type: 'image/svg+xml' },
+      { url: '/LogoPutih.svg', type: 'image/svg+xml', sizes: '32x32' },
+      { url: '/LogoPutih.svg', type: 'image/svg+xml', sizes: '16x16' },
+    ],
+    apple: [
+      { url: '/LogoPutih.svg', type: 'image/svg+xml' },
+    ],
+  },
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
 };
 
 export default function RootLayout({ children }) {

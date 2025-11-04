@@ -14,6 +14,8 @@ export async function POST(req) {
     console.log('Content-Type:', contentType);
     
     let body;
+    const MAX_BYTES = 10 * 1024 * 1024; // 10 MB
+    const ALLOWED_MIME = new Set(['image/jpeg', 'image/jpg', 'image/png']);
     
     if (contentType && contentType.includes('application/json')) {
       try {
@@ -31,6 +33,16 @@ export async function POST(req) {
         
         const imageFile = formData.get('file');
         if (imageFile && imageFile instanceof File) {
+          // Validate mime type
+          if (!ALLOWED_MIME.has(imageFile.type)) {
+            console.error('Unsupported image mime type:', imageFile.type);
+            return new Response(JSON.stringify({ error: 'Only .jpg, .jpeg, and .png are allowed' }), { status: 400 });
+          }
+          // Validate size (bytes)
+          if (typeof imageFile.size === 'number' && imageFile.size > MAX_BYTES) {
+            console.error('Image file too large:', imageFile.size);
+            return new Response(JSON.stringify({ error: 'Max file size is 10 MB' }), { status: 413 });
+          }
           const arrayBuffer = await imageFile.arrayBuffer();
           const base64 = Buffer.from(arrayBuffer).toString('base64');
           const mimeType = imageFile.type;
@@ -64,12 +76,29 @@ export async function POST(req) {
       return new Response(JSON.stringify({ error: 'Image data is required' }), { status: 400 });
     }
 
-    // Deteksi format gambar dari base64
+    // Validate base64 image header and size, and detect extension
     let fileExtension = 'png'; // default
-    if (image.startsWith('data:image/jpeg;base64,') || image.startsWith('data:image/jpg;base64,')) {
+    let mimeMatch = image.match(/^data:(image\/(?:jpeg|jpg|png));base64,/);
+    if (!mimeMatch) {
+      console.error('Unsupported base64 image format');
+      return new Response(JSON.stringify({ error: 'Only .jpg, .jpeg, and .png are allowed' }), { status: 400 });
+    }
+    const mimeTypeFromBase64 = mimeMatch[1];
+    if (!ALLOWED_MIME.has(mimeTypeFromBase64)) {
+      console.error('Unsupported mime type from base64:', mimeTypeFromBase64);
+      return new Response(JSON.stringify({ error: 'Only .jpg, .jpeg, and .png are allowed' }), { status: 400 });
+    }
+    if (mimeTypeFromBase64 === 'image/jpeg' || mimeTypeFromBase64 === 'image/jpg') {
       fileExtension = 'jpg';
-    } else if (image.startsWith('data:image/png;base64,')) {
+    } else if (mimeTypeFromBase64 === 'image/png') {
       fileExtension = 'png';
+    }
+    // Estimate size from base64 length
+    const base64Data = image.replace(/^data:image\/[^;]+;base64,/, '');
+    const estimatedBytes = Math.floor((base64Data.length * 3) / 4);
+    if (estimatedBytes > MAX_BYTES) {
+      console.error('Base64 image too large:', estimatedBytes);
+      return new Response(JSON.stringify({ error: 'Max file size is 10 MB' }), { status: 413 });
     }
     
     console.log('Processing image with extension:', fileExtension);

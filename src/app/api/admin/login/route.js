@@ -43,7 +43,7 @@ export async function POST(req) {
       headers: { 'Set-Cookie': serializedCookie },
     });
   } catch (err) {
-    console.error(err);
-    return new Response(JSON.stringify({ message: 'Server error' }), { status: 500 });
+   // console.error(err);
+   // return new Response(JSON.stringify({ message: 'Server error' }), { status: 500 });
   }
 } 

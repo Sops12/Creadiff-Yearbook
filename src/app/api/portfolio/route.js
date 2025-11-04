@@ -9,6 +9,38 @@ async function getDb() {
   return client.db();
 }
 
+// Validation constants
+const MAX_FILE_SIZE = 10 * 1024 * 1024; // 10 MB
+const ALLOWED_MIME_TYPES = ['image/jpeg', 'image/jpg', 'image/png'];
+const ALLOWED_EXTENSIONS = ['.jpg', '.jpeg', '.png'];
+
+// Helper function to validate file
+function validateFile(file) {
+  // Check file exists
+  if (!file || !(file instanceof File)) {
+    return { valid: false, message: 'File is required' };
+  }
+
+  // Check MIME type
+  if (!ALLOWED_MIME_TYPES.includes(file.type)) {
+    return { valid: false, message: 'Only .jpg, .jpeg, and .png files are allowed' };
+  }
+
+  // Check file extension
+  const fileName = file.name.toLowerCase();
+  const hasValidExtension = ALLOWED_EXTENSIONS.some(ext => fileName.endsWith(ext));
+  if (!hasValidExtension) {
+    return { valid: false, message: 'Only .jpg, .jpeg, and .png files are allowed' };
+  }
+
+  // Check file size
+  if (file.size > MAX_FILE_SIZE) {
+    return { valid: false, message: 'Max file size is 10 MB' };
+  }
+
+  return { valid: true };
+}
+
 export async function POST(req) {
   try {
     const formData = await req.formData();
@@ -17,6 +49,12 @@ export async function POST(req) {
 
     if (!file || !title) {
       return NextResponse.json({ message: 'File and title are required' }, { status: 400 });
+    }
+
+    // Validate file
+    const validation = validateFile(file);
+    if (!validation.valid) {
+      return NextResponse.json({ message: validation.message }, { status: 400 });
     }
 
     const buffer = await file.arrayBuffer();
@@ -77,6 +115,12 @@ export async function PUT(req) {
     const updateData = { title };
 
     if (file) {
+      // Validate file
+      const validation = validateFile(file);
+      if (!validation.valid) {
+        return NextResponse.json({ message: validation.message }, { status: 400 });
+      }
+
       // 1. Upload new file to ImageKit
       const buffer = await file.arrayBuffer();
       const fileBuffer = Buffer.from(buffer);
